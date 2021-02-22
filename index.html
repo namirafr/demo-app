@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccdbe5;
+  background-image: url("wave.jpg");
+  background-repeat:no-repeat;
+  background-size: 1600px;
+  background-attachment:fixed;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  color: #3a2817;
+  /* word-break: break-all; */
+}
+span{
+  font-size: 25px;
+  letter-spacing:5px;
+  font-weight: lighter;
+}
+#about_me{
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 25px;
+}
+#edu{
+  width: 80%;
+  line-height: 30px;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column3,.row > .column2 {
+  padding: 8px;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  text-align: justify;
+  line-height: 25px;
+}/* Create four equal columns that floats next to each other */
+.column3 {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column2, .column3{
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column2, .column3{
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1><span>Hello! I am </span>Namira Fasya Rahim</h1>
+<hr>
+
+<h2 style="color:#4f473e">MY PORTFOLIO</h2>
+<p style="color:#4f473e">Thank you for your kind visit, let me show you what I can do..</p>
+<div class="content" style="background-color:#e8bc98">
+  <img src="IMG_3432.jpg" alt="wave" style="width:100%">
+  <h2>About Me</h2>
+  <p id="about_me">Nama saya Namira Fasya Rahim, biasa dipanggil Mia. Saya lahir di Bandung pada tanggal 19 Agustus 2000, ulang tahun saya hanya berbeda dua hari dengan Hari Kemerdekaan Indonesia dan sampai saat ini saya baru menemukan satu orang yang lahir pada tanggal yang sama yaitu KM di kelas sekaligus teman dekat saya.
+    Saya mahasiswi semester 6 di Jurusan Teknik Telekomunikasi Telkom University. Hobi saya adalah travelling, dari kecil saya sudah sering diajak bepergian oleh keluarga. Dari travelling ini saya banyak belajar tentang hal-hal baru dan keunikan setiap tempat yang membuat saya ingin terus ber-travelling.</p>
+</div>
+
+<!-- Portfolio Data Grid -->
+
+<div class="row">
+  <div class="column2">
+    <div class="content" style="background:#bf7864">
+      <h2>More about me:</h2>
+
+      <center><h3>Details</h3>
+      <table>
+      <tr>
+        <td> Tempat/Tgl Lahir </td>
+        <td> :&nbsp;Bandung,19-08-2000 </td>
+      </tr>
+      <tr>
+        <td> Jenis Kelamin </td>
+        <td> :&nbsp;Perempuan </td>
+      </tr>
+      <tr>
+        <td> Agama </td>
+        <td> :&nbsp;Islam </td>
+      </tr>
+     <tr>
+       <td> Alamat </td>
+       <td> :&nbsp;Komplek PHI Jl. Jasmine,no. 5 Bandung</td>
+     </tr>
+     <tr>
+       <td> email </td>
+       <td> :&nbsp;rahim.namirafasya@gmail.com</td>
+     </tr>
+     <tr>
+       <td> No. HP </td>
+       <td> :&nbsp;081321245082</td>
+     </tr>
+   </table></center>
+<br>
+   <center><h3>Education</h3></center>
+   <dl id="edu">
+     <dt> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       1. Taman Kanak-kanak (2004-2006)</dt>
+       <dd> &rarr;TK At-Taqwa Bandung </dd>
+     <dt> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       2. Sekolah Dasar (2006-2012)</dt>
+       <dd> &rarr;SD Darul Hikam Bandung </dd>
+     <dt> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       3.Sekolah Menengah Pertama (2012-2015)</dt>
+       <dd> &rarr;SMP Darul Hikam Bandung </dd>
+     <dt> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       4. Sekolah Menengah Akhir (2015-2018)</dt>
+       <dd> &rarr;SMA Darul Hikam Bandung </dd>
+     </dl>
+    </div>
+  </div>
+<div class="column2">
+  <div class="content" style="background:#bf7864">
+    <h2>My S.W.O.T</h2>
+      <ul style="width:94%">
+        <li> Strength </li>
+      <ol>
+          <li>Saya termasuk orang yang cukup mudah dalam menghafal.</li>
+          <li>Saya dididik agar menjadi pribadi yang baik akhlak-nya pada kondisi apapun dan dalam kehidupan sehari-hari.</li>
+      </ol>
+    </ul>
+    <ul style="width:94%">
+      <li> Weakness </li>
+    <ol>
+        <li>Saya tipe orang yang cukup emosional.</li>
+        <li>Saat saya berhadapan dengan orang yang kurang saya sukai, saya tidak bisa berpura-pura baik kepadanya.</li>
+    </ol>
+  </ul>
+  <ul style="width:94%">
+    <li> Opportunity </li>
+  <ol>
+      <li>Saya sering diandalkan orang karena dianggap mampu dalam melakukan hal-hal dan mampu mandiri.</li>
+  </ol>
+</ul>
+<ul style="width:94%">
+  <li> Threat </li>
+<ol>
+    <li>Persaingan antar para generasi muda sangatlah ketat, semua orang bersaing untuk menjadi yang terbaik. Sehingga persaingan merupakan salah satu ancaman terbesar menurut saya.</li>
+</ol>
+</ul>
+    </div>
+</div>
+
+<!-- END GRID -->
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column3">
+    <div class="content" style="background:#dec7c1">
+      <img src="sertif1.jpg" alt="kimia" style="width:100%">
+      <h3>Certificate</h3>
+      <p>Mengikuti Olimpiade Kimia Tingkat Nasional yang diselenggarakan oleh ITB 2018 tapi belum dapat lanjut ke tahap selanjutnya.</p>
+    </div>
+  </div>
+  <div class="column3">
+    <div class="content" style="background:#dec7c1">
+    <img src="sertif2.jpg" alt="tape" style="width:100%">
+      <h3>Certificate</h3>
+      <p>Perwakilan sekolah untuk mengikuti Olimpidae Sains Nasional pada tahun 2017 dengan penyelenggara yaitu BPPP wilayah IV.</p>
+    </div>
+  </div>
+  <div class="column3">
+    <div class="content" style="background:#dec7c1">
+    <img src="sertif3.jpg" alt="groovy" style="width:100%;">
+      <h3>Certificate</h3>
+      <p>Menjadi Semifinalis pada Olimpiade Matematika tingkat SMA pada tahun 2017 yang diselenggarakan oleh UIN Sunan Ampel Surabaya </p>
+    </div>
+  </div>
+  <div class="column3">
+    <div class="content" style="background:#dec7c1">
+    <img src="sertif4.jpg" alt="books" style="width:100%">
+      <h3>Certificate</h3>
+      <p>Berpartisipasi dalam acara Intercultural Exchange di Shigakuka High Scool Nagoya dan Aichi University of Technology</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<div class="row">
+<div class="content" style="background-color:#eaa369">
+  <img src="hobby3.jpg" alt="wave" style="width:100%">
+  <h2>Hobbies</h2>
+  <p>&#127908;&nbsp;&nbsp;I enjoy being physically active, and spend a lot of time dancing and singing.&nbsp;&nbsp;&#128131;</p>
+  <p>&#127752;&nbsp;&nbsp;I like arts and crafts. I’m a creative person, and like doing things with my hands.&nbsp;&nbsp;&#127912;</p>
+  <p>&#9961;&nbsp;&nbsp;I’m an outgoing person, and like travelling with friends and family. &nbsp;&nbsp;&#127965;</p>
+</div>
+</div>
+<div class="row">
+<div class="content" style="background-color:#f6e5ca">
+  <img src="language.jpg" alt="wave" style="width:100%">
+  <h2>Language skills</h2>
+  <p>1. I am a native speaker of Bahasa.</p>
+  <p>2. I can hold a basic conversation in Korean.</p>
+  <p>3. I studied Arabic at school, but I can’t speak it.</p>
+  <p>4. I know a few words in French.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

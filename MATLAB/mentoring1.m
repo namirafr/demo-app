@@ -1,0 +1,14 @@
+x1=audioread('Hmmm - SABYAN (mono).wav');
+x2=audioread('MOMOLAND - BBoom BBoom (mono).wav');
+figure(1);
+subplot(3,1,1);
+stem(x1);
+title('Momoland');
+subplot(3,1,2);
+stem(x2);
+title('Sabyan');
+x3=x2+x1;
+subplot(3,1,3);
+stem(x3);
+title('Hasil');
+sound(x3,44100);

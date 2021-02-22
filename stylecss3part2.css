@@ -1,0 +1,27 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: magenta;
+  margin-bottom: 10px;
+  transition: width 1s, background 2s;
+}
+
+#div3{
+  transition: height 1s;
+}
+
+#div1:hover{
+  width: 200px;
+
+}
+
+#div2:hover{
+  background: pink;
+
+}
+
+#div3:hover{
+  height: 120px;
+  transition-timing-function:
+
+}

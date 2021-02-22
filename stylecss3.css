@@ -1,0 +1,82 @@
+/*  */
+
+#square{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 30px;
+}
+
+#circle{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+#box{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+/*  box-shadow: horizontal vertical blur spread color; */
+  box-shadow: 5px 10px 5px 5px grey;
+}
+
+#box2{
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  padding: 10px;
+  border: 2px solid black;
+
+}
+#box3{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  padding: 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+#box4{
+height: 100px;
+width: 100px;
+background-color: pink;
+}
+#text1{
+/*text-shadow: horizontal vertical blur-radius color;*/
+  text-shadow: 5px 5px 3px grey;
+}
+#text2{
+  width: 40px;
+  /* overflow: scroll; */
+ overflow: hidden;
+text-overflow: ellipsis;}
+
+ #box5{
+ height: 100px;
+ width: 100px;
+ background-color: aqua;
+ transform: translate(100px, 100px);
+ }
+
+ #box6{
+ height: 100px;
+ width: 100px;
+ border-radius: 40px;
+ background-color: orange;
+ transform: rotate(20deg);
+ }
+
+ #shape1{
+ height: 100px;
+ width: 100px;
+ background-color: brown;
+ transform: scale(1.5,0.5);
+ }
+ #shape2{
+ height: 100px;
+ width: 100px;
+ background-color: grey;
+ transform: skewX(10deg) skewY(10deg);
+ }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <meta charset="UTF-8">
+<html>
+
+  <head>
+    <title> Form KTP </title>
+  </head>
+
+  <!-- bagian heading dan kalimat pembuka-->
+  <div>
+    <center> <h1> Laman HTML dengan layout KTP menggunakan form </h1> </center>
+    <br><br>
+    <fieldset>
+      <center> <h2> DATA WARGA NEGARA REPUBLIK INDONESIA </h2> </center>
+      <p><font color="red">* Menginputkan data menggunakan huruf <b>capital</b></font></p>
+    </fieldset>
+  </div>
+
+  <!-- bagian form untuk user-->
+  <form>
+    <fieldset>
+    <br>
+    <center><h3> PROVISNI JAWA BARAT </h3></center>
+    <center><h3> KABUPATEN BANDUNG BARAT</h3></center>
+      <label for="nik_user"> NIK: </label>
+      <input type="number" min="3217000000000000" max="3217999999999999" value="3217" placeholder="NIK Anda" id="nik_user">
+      <br><br>
+      <label for="nama_user"> Nama: </label>
+      <input type="text" placeholder="Nama Anda" id="nama_user" size="40">
+      <br><br>
+      <label for="ttl_user"> Tempat/Tgl Lahir: </label>
+      <input type="text" placeholder="Tempat" id="ttl_user">
+      <input type="date" name="tgl_lahir" id="ttl_user">
+      <br><br>
+      <label> Jenis Kelamin: </label>
+      <input type="radio" name="gender" value="0"> Laki-laki
+      <input type="radio" name="gender" value="1"> Perempuan
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label> Gol. Darah: </label>
+        <select name="goldar">
+          <option value="0">A</option>
+          <option value="1">B</option>
+          <option value="2">AB</option>
+          <option value="3">O</option>
+        </select>
+      <br><br>
+      <label for="alamat_user"> Alamat: </label> <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <textarea cols="30" rows="5" id="alamat_user" placeholder="Alamat Anda"> </textarea>
+      <br><br>
+      <label for="rtrw_user"> RT: </label>
+      <input type="number" min="001" max="999" placeholder="RT" id="rt_user">
+      <br><br>
+      <label for="rtrw_user"> RW: </label>
+      <input type="number" min="001" max="999" placeholder="RW" id="rw_user">
+      <br><br>
+      <label for="kec_user"> Kecamatan: </label>
+      <input type="text" placeholder="Kecamatan" id="kec_user">
+      <br><br>
+      <label for="kel_user"> Kel/Desa: </label>
+      <input type="text" placeholder="Kel/Desa" id="kel_user">
+      <br><br>
+      <label> Agama: </label>
+        <select name="agama">
+          <option value="0"> ISLAM </option>
+          <option value="1"> PROTESTAN </option>
+          <option value="2"> KATOLIK </option>
+          <option value="3"> BUDDHA </option>
+          <option value="4"> HINDU </option>
+          <option value="5"> KONGHUCU </option>
+        </select>
+      <br><br>
+      <label> Status Perkawinan: </label>
+        <select name="status">
+          <option value="0"> BELUM KAWIN </option>
+          <option value="1"> KAWIN </option>
+          <option value="2"> CERAI HIDUP </option>
+          <option value="3"> CERAI MATI </option>
+        </select>
+      <br><br>
+      <label for="kerja_user"> Pekerjaan: </label>
+      <input type="text" placeholder="Pekerjaan Anda" id="kerja_user">
+      <br><br>
+      <label> Kewarganegaraan: </label>
+        <select name="kewarganegaraan">
+          <option value="0"> WNI </option>
+          <option value="1"> WNA </option>
+          </select>
+      <br><br>
+      <label for="exp_user"> Berlaku Hingga: </label>
+      <input type="text" value="Seumur Hidup" id="exp_user">
+      <br><br>
+      <label for="foto_user"> Pas Foto: </label>
+    <!--  <input type="hidden" value="3000000"> -->
+      <input name="filefoto" type="file" id="foto_user">
+      <br><br>
+      <label for="ttd_user"> Tanda Tangan: </label>
+    <!--  <input type="hidden" value="3000000"> -->
+      <input name="filefoto" type="file" id="ttd_user">
+      <br><br><br>
+    <center>
+    <input type="submit" value="CETAK">
+    &nbsp;&nbsp;&nbsp;
+    <input type="reset" value="BATAL">
+    </center>
+  </fieldset>
+  </form>

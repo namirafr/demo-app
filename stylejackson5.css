@@ -1,0 +1,21 @@
+h1{
+  font-family:lucida console;
+  text-align: center;
+  font-size: 70px;
+}
+body{
+  background-image: url("headphone.jpg");
+  background-size: 400px;
+  background-attachment:fixed;
+  width: 100%;
+
+}
+
+p{
+  font-family: monaco;
+  color: black;
+  font-size: 18px;
+  font-weight:bolder;
+  text-align: center;
+
+}

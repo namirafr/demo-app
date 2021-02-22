@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title> CSS3 Part 2</title>
+    <!-- <link rel="stylesheet" href="stylecss3part2.css"> -->
+    <style>
+
+    div{
+      width: 100px;
+      height: 100px;
+      margin: 10px 10px;
+
+    }
+    #div1, #div2, #div3{
+      background-color: magenta;
+      transition: width 1s, background 2s;
+    }
+    #div3{
+      transition: height 1s;
+    }
+
+    #div1:hover{
+      width: 200px;
+    }
+
+    #div2:hover{
+      background: pink;
+    }
+
+    #div3:hover{
+      height: 120px;
+      transition-timing-function: step-end;
+    }
+    /* #div4, #div5{
+      background: aqua;
+    } */
+    #div4{
+      perspective: 100px;
+    }
+    #div5{
+      transform: rotateX(50deg);
+      background: aqua;
+    }
+    /* #div6, #div7{
+      background: pink;
+    } */
+    #div6{
+      perspective: 10px;
+      perspective-origin: 60% 10%;
+    }
+    #div7{
+background: pink;
+  transform: translateZ(1px);
+  transform: rotateZ(10deg);
+  transition: transform 2s;
+
+
+    }
+    #div7:hover{
+      transform: translateZ(20px);
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <h1> Transition </h1>
+    <div id="div1"> </div>
+    <div id="div2"> </div>
+    <div id="div3"> </div>
+
+    <h1> Perspective </h1>
+    <div id="div4">
+      <div id="div5"></div>
+    </div>
+
+    <h1> Translate dan Rotate</h1>
+    <div id="div6">
+    <div id="div7"></div>
+    </div>
+
+  </body>
+</html>

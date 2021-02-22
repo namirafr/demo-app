@@ -1,0 +1,79 @@
+h2 {
+  color: black;
+  font-size: 30 px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  letter-spacing: 5px;
+  font-family: monaco;
+
+}
+.menu, a{
+  background: #e2a099;
+  display: inline-block;
+  padding: 8px;
+  border: 2px dashed black;
+  text-decoration: none;
+  font-family: monospace;
+  color: black;
+
+}
+.menu:hover{
+  background: #dae2e2;
+}
+
+body{
+  background-color: rgb(220, 252, 239);
+  background-image: url("abc6.jpg");
+  background-attachment: fixed;
+  /*background-attachment: local;*/
+  /*background-position: right top;*/
+}
+
+h1{
+  color: black;
+  text-align: center;
+  text-decoration:overline underline;
+  font-family: monaco;
+  font-size: 40px;
+
+}
+#text_pendek{
+  font-size: 30px;
+  font-family: fantasy;
+  background: #E4D8D0;
+  display: block;
+  width: 300px;
+}
+#text_panjang{
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 30px;
+  word-spacing: 4px;
+  font-size: 16px;
+  font-family: monaco;
+  background-color: #eeeeef;
+}
+#klik{
+  line-height: 30px;
+  word-spacing: 4px;
+  font-size: 16px;
+  font-family: monaco;
+  background: #E4D8D0;
+  display: block;
+  width: 120px;
+}
+a{
+  font-size: 18px;
+  margin-top: 7px;
+}
+iframe{
+  float: left;
+}
+ #lirik{
+   background-color: #eeeeef;
+   width: 40%;
+   margin-left: 320px;
+   padding-left: 20px;
+   font-size: 20px;
+ }
